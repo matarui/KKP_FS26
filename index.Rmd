@@ -1,0 +1,99 @@
+---
+title: "Karrierekompetenzen für PsychologInnen"
+description: |
+  Willkommen auf der Website für *Karrierekompetenzen für Psycholog\*innen* FS25 ([75723-01](https://vorlesungsverzeichnis.unibas.ch/de/vorlesungsverzeichnis?id=292389))
+  
+  **Letzte Aktualisierung:** `r format(Sys.time(), "%a %b %d %X %Y")`
+  
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+![Psychologie hat viele Gesichter! <span>Photo by <a href="https://unsplash.com/@amseaman?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrew Seaman</a> on <a href="https://unsplash.com/photos/gray-concrete-wall-4Fi_4Q6_eFM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></span>](photos/andrew-seaman-4Fi_4Q6_eFM-unsplash.jpg)
+
+# Kursbeschreibung
+
+In diesem Kurs erkunden Studierende vielfältige Karrierewege in der Psychologie durch inspirierende Vorträge von Praktiker*innen aus unterschiedlichen Fachbereichen. In Zusammenarbeit mit Dr. Birgit Müller (Vizerektorat Lehre, Career Service Center) erwerben sie essenzielle Fähigkeiten für eine proaktive Karriereplanung und -vorbereitung. Der Fokus liegt auf praxisnahen Kompetenzen wie dem Erstellen eines professionellen Lebenslaufs, dem Verfassen überzeugender Motivationsschreiben sowie der erfolgreichen Teilnahme an Assessment-Centern und Bewerbungsgesprächen. Dieser Kurs bietet eine ideale Grundlage, um die berufliche Zukunft gezielt und selbstbewusst zu gestalten.
+
+# Sitzungen
+
+Die Sitzungen finden mittwochs von 16:15 bis 17:45 im Chemiegebäude, Organische Chemie, Großer Hörsaal OC, statt.
+
+::: l-body
+| # | Date | Topic                | Speaker | Slides |
+|---| -----|----------------------|--------| --------|
+| 1 | 19.02.2025 | Intro | Mata/Doshi | [pdf](presentations/KKP_session1.pdf) |
+| 2 | 26.02.2025 | Career preparedness | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) | [pdf](presentations/KKP_session2.pdf)  | 
+| 3 | 05.03.2025 | Paartherapie | [Patricia Newark](https://www.therapie-basel.ch/?page_id=215) | [pdf](presentations/KKP_session3.pdf) | 
+| 4 | 19.03.2025 | Curriculum Vitae | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) | [pdf](presentations/KKP_session4.pdf)  |
+| 5 | 26.03.2025 | Sportpsychologie |  [Allain Meyer](https://www.alainmeyer.ch/en) |  [pdf](presentations/KKP_session5.pdf) |
+| 6 | 02.04.2025 | Motivationsschreiben | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) |  [pdf](presentations/KKP_session6.pdf)  |
+| 7 | 09.04.2025 | Neuropsychologie | [Marianne Schneitter](https://www.rehab.ch/de/das-rehab-entdecken/organisation/ansprechpersonen/94/marianne-schneitter) | [pdf](presentations/KKP_session7.pdf)  |
+| 8 | 16.04.2025 | Klinische Psychologie und Nachhaltigkeitskommunikation |  [Jannis Behr](https://www.upk.ch/ueber-uns/klinikportrait/leitungspersonen/detail/team/behr-jannis) | [pdf](presentations/KKP_session8.pdf)|
+| 9 | 23.04.2025 | Risikobeurteilungen im Berufskontext |  [Simon Hardegger](https://www.linkedin.com/in/simoncarlhardegger/)| [pdf](presentations/KKP_session9.pdf)|
+| 10 | 30.04.2025 | UX | [Corinne Reutimann](https://www.linkedin.com/in/corinne-reutimann/) | [pdf](presentations/KKP_session10.pdf) |
+|11 | 07.05.2025 | Bewerbungsgespräch | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) | [pdf](presentations/KKP_session11.pdf)|
+|12 | 14.05.2025 | Organisationspsychologie | [Sinéad Tschopp](https://www.linkedin.com/in/sinéad-tschopp-5bb04a183/) | [pdf](presentations/KKP_session12.pdf)* |
+|13 | 21.05.2025 | Prävention gegen Gewalt | [Luca Coviello](https://staatskalender.bs.ch/person/51fffa4de0d4492eb8d944ff465bd415) | [pdf](presentations/KKP_session13.pdf) |
+|14 | 28.05.2025 | Schulpsychologie | [Katrin Gossner](https://www.ag.ch/de/ueber-uns/kontakt/behoerdenverzeichnis?rewriteRemoteUrl=/people/Katrin-Gossner) | [pdf](presentations/KKP_session14.pdf) |
+:::
+
+\* selection of slides only
+
+Ein [FAQ-Forum](https://adam.unibas.ch/goto_adam_crs_1942323.html) ist auf ADAM verfügbar.
+
+
+# Kursbewertung 
+
+Dieser Kurs folgt einer Lehrveranstaltungsbegleitenden Leistungsüberprüfung. Da es keine Abschlussprüfung gibt, basiert die Bewertung ausschließlich auf praxisnahen Übungen zur Entwicklung karriererelevanter Kompetenzen.
+ 
+### 1. Karriereportfolio (40%)
+Eine strukturierte Abgabe, bestehend aus:
+ 
+*Curriculum Vitae (10%)* (1-2 Seiten; Abgabefrist: 26. März)
+
+- Ein gut strukturiertes, professionelles und auf die Kursrichtlinien abgestimmtes CV (1-2 Seiten; siehe Folie 15 der Präsentation aus Session 4). 
+ 
+*Motivationsschreiben (10%)* (eine Seite; Abgabefrist: 9. April)
+
+- Ein überzeugendes, individuell angepasstes Bewerbungsschreiben für eine spezifische Stelle oder ein Praktikum (1 Seite; siehe Folien 7-8 und 23-24 der Präsentation aus Session 6). 
+ 
+*Vorbereitung auf das Vorstellungsgespräch (10%)* (Abgabefrist: 14. Mai)
+
+- Eine Sammlung potenzieller Interviewfragen mit gut durchdachten Antworten (max. 2 Seiten).
+- Eine Zusammenfassung eines Gesprächs mit einer Person, die kürzlich ein Vorstellungsgespräch absolviert hat, inklusive Reflexion über deren Erfahrungen sowie eine eigene Selbstreflexion (1 Seite).
+ 
+*Karriereplan (10%)* (Abgabefrist: 4. Juni)
+
+Ein strategischer, individueller Karriereplan (max. 2 Seiten), der Folgendes umfasst:
+- Eine Übersicht über aktuelle Kompetenzen.
+- Eine Strategie für Weiterbildung und Entwicklung, die mindestens fünf karriererelevante Trends identifiziert (z. B. übertragbare Fähigkeiten, Projektmanagement, digitale Kompetenzen), um die Beschäftigungsfähigkeit zu steigern.
+- Eine Liste mit Informationsquellen für Jobmöglichkeiten (z. B. Praktika, Branchenveranstaltungen, Universitätsprogramme, Alumni-Netzwerke).
+- Einen strukturierten Zeitplan für die Stellensuche mit wichtigen Meilensteinen und Fristen.
+ 
+### 2. Reflexion zu Expertenvorträgen: Schriftliche Aufgaben (60%)
+
+*Kurzreflexionen (9 Experten, jeweils ca. 7%)* (ca. 1–2 Seiten; Abgabefrist: einer Woche nach der jeweiligen Sitzung)
+
+Nach jeder Gastvorlesung verfassen die Studierenden eine kritische Reflexion, die die wichtigsten Erkenntnisse zusammenfasst und deren Relevanz für den eigenen Karriereweg bewertet.
+
+**Inhalt**: 1) Zusammenfassung des Vorgetragenen: Kurze Darstellung der zentralen Inhalte der Gastvorlesung, 2) Erklärung des Berufes und der psychologischen Fähigkeiten: Beschreibung des Berufsbildes der Expertin/des Experten, Welche psychologischen Kompetenzen aus dem Studium bereiten auf diesen Beruf vor?; 3) Kritische Auseinandersetzung: Persönliche Reflexion: Welche Aspekte waren besonders wertvoll? Anwendung der Erkenntnisse auf den eigenen Berufsweg
+
+**Formatierung & Struktur**: Times New Roman 12 pt, Arial 11 pt oder Calibri 11 pt, 
+Zeilenabstand: Doppelt.
+
+
+ 
+Jede Aufgabe wird nach dem BESTANDEN/NICHT BESTANDEN-Prinzip bewertet. Ein BESTANDEN erfordert eine hohe inhaltliche Qualität. Die Endnote basiert auf dem Anteil der erfolgreich abgeschlossenen Aufgaben.
+ 
+Alle Aufgaben (mit Ausnahme des Karriereplans) müssen innerhalb einer Woche nach der jeweiligen Sitzung über ADAM eingereicht werden.
