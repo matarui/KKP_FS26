@@ -1,10 +1,11 @@
 ---
 title: "Karrierekompetenzen für PsychologInnen"
 description: |
-  Willkommen auf der Website für *Karrierekompetenzen für Psycholog\*innen* FS25 ([75723-01](https://vorlesungsverzeichnis.unibas.ch/de/vorlesungsverzeichnis?id=292389))
+  Willkommen auf der Website für *Karrierekompetenzen für Psycholog\*innen* FS26 ([75723-01](https://vorlesungsverzeichnis.unibas.ch/de/vorlesungsverzeichnis?id=292389))
   
   **Letzte Aktualisierung:** `r format(Sys.time(), "%a %b %d %X %Y")`
   
+  *UNDER CONSTRUCTION*
 site: distill::distill_website
 ---
 
@@ -32,20 +33,14 @@ Die Sitzungen finden mittwochs von 16:15 bis 17:45 im Chemiegebäude, Organische
 ::: l-body
 | # | Date | Topic                | Speaker | Slides |
 |---| -----|----------------------|--------| --------|
-| 1 | 19.02.2025 | Intro | Mata/Doshi | [pdf](presentations/KKP_session1.pdf) |
-| 2 | 26.02.2025 | Career preparedness | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) | [pdf](presentations/KKP_session2.pdf)  | 
-| 3 | 05.03.2025 | Paartherapie | [Patricia Newark](https://www.therapie-basel.ch/?page_id=215) | [pdf](presentations/KKP_session3.pdf) | 
-| 4 | 19.03.2025 | Curriculum Vitae | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) | [pdf](presentations/KKP_session4.pdf)  |
-| 5 | 26.03.2025 | Sportpsychologie |  [Allain Meyer](https://www.alainmeyer.ch/en) |  [pdf](presentations/KKP_session5.pdf) |
-| 6 | 02.04.2025 | Motivationsschreiben | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) |  [pdf](presentations/KKP_session6.pdf)  |
-| 7 | 09.04.2025 | Neuropsychologie | [Marianne Schneitter](https://www.rehab.ch/de/das-rehab-entdecken/organisation/ansprechpersonen/94/marianne-schneitter) | [pdf](presentations/KKP_session7.pdf)  |
-| 8 | 16.04.2025 | Klinische Psychologie und Nachhaltigkeitskommunikation |  [Jannis Behr](https://www.upk.ch/ueber-uns/klinikportrait/leitungspersonen/detail/team/behr-jannis) | [pdf](presentations/KKP_session8.pdf)|
-| 9 | 23.04.2025 | Risikobeurteilungen im Berufskontext |  [Simon Hardegger](https://www.linkedin.com/in/simoncarlhardegger/)| [pdf](presentations/KKP_session9.pdf)|
-| 10 | 30.04.2025 | UX | [Corinne Reutimann](https://www.linkedin.com/in/corinne-reutimann/) | [pdf](presentations/KKP_session10.pdf) |
-|11 | 07.05.2025 | Bewerbungsgespräch | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) | [pdf](presentations/KKP_session11.pdf)|
-|12 | 14.05.2025 | Organisationspsychologie | [Sinéad Tschopp](https://www.linkedin.com/in/sinéad-tschopp-5bb04a183/) | [pdf](presentations/KKP_session12.pdf)* |
-|13 | 21.05.2025 | Prävention gegen Gewalt | [Luca Coviello](https://staatskalender.bs.ch/person/51fffa4de0d4492eb8d944ff465bd415) | [pdf](presentations/KKP_session13.pdf) |
-|14 | 28.05.2025 | Schulpsychologie | [Katrin Gossner](https://www.ag.ch/de/ueber-uns/kontakt/behoerdenverzeichnis?rewriteRemoteUrl=/people/Katrin-Gossner) | [pdf](presentations/KKP_session14.pdf) |
+| 1 | 18.02.2026 | Career preparedness | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) |  |
+| 2 | 04.03.2026 | Expert talks |  |  | 
+| 3 | 11.03.2026 | CV | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) |  |
+| 4 | 18.03.2026 | Expert talks |  |  |
+| 5 | 25.03.2026 | Motivationsschreiben | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) |   |
+| 6 | 15.04.2025 | Expert talks |  |   |
+| 7 | 22.04.2025 | Bewerbungsgespräch | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) | |
+| 8 | 06.05.2025 | Expert talks |  | |
 :::
 
 \* selection of slides only
