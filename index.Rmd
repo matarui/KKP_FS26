@@ -184,7 +184,7 @@ Insgesamt **4 Reflexionen** (je 2 Seiten). Jede Reflexion sollte folgende Elemen
 ### 3. Abgabefristen und Endnoteberechnung
 
 | Aufgabe | Umfang | Abgabefrist |
-|------------------------------|-|---|
+|---------------------|-|------|
 | Reflexion 1 (Expertenvorträge, Session 2) | 2 Seiten | 11.03.2026 (12:00) |
 | Curriculum Vitae | 2 Seiten | 18.03.2026 (12:00) |
 | Reflexion 2 (Expertenvorträge, Sitzung 4) | 2 Seiten | 25.03.2026 (12:00) |
