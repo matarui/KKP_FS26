@@ -5,7 +5,11 @@ description: |
   
   **Letzte Aktualisierung:** `r format(Sys.time(), "%a %b %d %X %Y")`
   
-site: distill::distill_website
+# site: distill::distill_website
+
+output: 
+  distill::distill_article:
+    md_extensions: +emoji
 ---
 
 ```{r setup, include=FALSE}
@@ -25,68 +29,201 @@ knitr::opts_chunk$set(echo = FALSE)
 
 In diesem Kurs erkunden Studierende vielfältige Karrierewege in der Psychologie durch inspirierende Vorträge von Praktiker*innen aus unterschiedlichen Fachbereichen. In Zusammenarbeit mit Dr. Birgit Müller (Vizerektorat Lehre, Career Service Center) erwerben sie essenzielle Fähigkeiten für eine proaktive Karriereplanung und -vorbereitung. Der Fokus liegt auf praxisnahen Kompetenzen wie dem Erstellen eines professionellen Lebenslaufs, dem Verfassen überzeugender Motivationsschreiben sowie der erfolgreichen Teilnahme an Assessment-Centern und Bewerbungsgesprächen. Dieser Kurs bietet eine ideale Grundlage, um die berufliche Zukunft gezielt und selbstbewusst zu gestalten.
 
-# Sitzungen
+# Sitzungen und Expert Talks
 
 Die Sitzungen finden mittwochs von 16:15 bis 17:45 im Chemiegebäude, Organische Chemie, Großer Hörsaal OC, statt.
 
 ::: l-body
-| # | Date | Topic                | Speaker(s) | Slides |
-|---| -----|----------------------|--------| --------|
+| # | Date | Topic       | Speaker(s)     | Slides|
+|---| -----|-------------|-------------------| -----|
 | 1 | 18.02.2026 | Career preparedness | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) |  |
-| 2 | 04.03.2026 | Expert talks |  |  | 
+| 2 | 04.03.2026 | Expert talks | Bajrami, Turowski, Pflüger, Maeder |  | 
 | 3 | 11.03.2026 | CV | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) |  |
-| 4 | 18.03.2026 | Expert talks |  |  |
+| 4 | 18.03.2026 | Expert talks | Lusch, Ochsenbein, Schaffter |  |
 | 5 | 25.03.2026 | Motivationsschreiben | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) |   |
-| 6 | 15.04.2025 | Expert talks |  |   |
-| 7 | 22.04.2025 | Bewerbungsgespräch | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) | |
-| 8 | 06.05.2025 | Expert talks |  | |
+| 6 | 15.04.2026 | Expert talks | Blum, Seckler, Nakkas |   |
+| 7 | 22.04.2026 | Bewerbungsgespräch | [Birgit Müller](https://www.unibas.ch/en/Studies/Advice-and-Support/Career-Counseling/Team-CSC.html) | |
+| 8 | 06.05.2026 | Expert talks | Niklaus, Doshi, Weizenegger | |
 :::
 
+### :rocket: Expert*innen
 
 
-<!-- Ein [FAQ-Forum](https://adam.unibas.ch/goto_adam_crs_1942323.html) ist auf ADAM verfügbar. -->
+#### 4. März
 
-<!-- # Kursbewertung  -->
+**Arzie Bajrami, Training Specialist, Roche** 
 
-<!-- Dieser Kurs folgt einer Lehrveranstaltungsbegleitenden Leistungsüberprüfung. Da es keine Abschlussprüfung gibt, basiert die Bewertung ausschließlich auf praxisnahen Übungen zur Entwicklung karriererelevanter Kompetenzen. -->
+Arzie Bajrami studierte Psychologie an der Fakultät für Psychologie in Basel. Seit 2024 ist sie im Trainingsbereich tätig. Zuvor war sie als Research Assistant sowie als Tutorin für Lernschwierigkeiten tätig. Derzeit arbeitet sie als Training Specialist bei Roche.
 
-<!-- ### 1. Karriereportfolio (40%) -->
-<!-- Eine strukturierte Abgabe, bestehend aus: -->
+**Sarah Turowski, Principal Talent Acquisition Business Partner, Novartis** 
 
-<!-- *Curriculum Vitae (10%)* (1-2 Seiten; Abgabefrist: 26. März) -->
+Sarah Turowski hat Psychologie an der Universität Basel studiert und ist seit 2012 im Personalwesen / HR tätig. In dieser Zeit übernahm sie verschiedene Funktionen, darunter HR Project Manager, HR Business Partner sowie Head Early Careers Switzerland. Derzeit arbeitet sie im Bereich Talent Acquisition bei Novartis.
 
-<!-- - Ein gut strukturiertes, professionelles und auf die Kursrichtlinien abgestimmtes CV (1-2 Seiten; siehe Folie 15 der Präsentation aus Session 4).  -->
+**Maxine Pflüger, Psychotherapeutin & Paartherapeutin in Weiterbildung, Praxis &ZUFRIEDENHEIT**
 
-<!-- *Motivationsschreiben (10%)* (eine Seite; Abgabefrist: 9. April) -->
+Maxine Pflüger hat Psychologie an der Universität Basel studiert und ist seit 2022 im Bereich klinische Psychologie und Psychotherapie tätig. Dabei hatte sie Positionen als Assistenzpsychologin an den UPK auf der Kinderpsychiatrischen Abteilung und in der Klinik Barmelweid im Ambulatorium für Erwachsene inne. Aktuell ist sie als Psychotherapeutin und Paartherapeutin in Weiterbildung tätig.
 
-<!-- - Ein überzeugendes, individuell angepasstes Bewerbungsschreiben für eine spezifische Stelle oder ein Praktikum (1 Seite; siehe Folien 7-8 und 23-24 der Präsentation aus Session 6).  -->
+**Svea Maeder, Senior Strategist, thjnk Zürich**
 
-<!-- *Vorbereitung auf das Vorstellungsgespräch (10%)* (Abgabefrist: 14. Mai) -->
+Svea Maeder hat Psychologie an der Universität Basel studiert und ist seit 2019 im Bereich Marketing und Konsumentenpsychologie tätig. Dabei hatte sie Positionen wie Customer Insight Consultant sowie Brand- und Creative Strategist inne. Aktuell ist sie als Senior Strategist bei thjnk Zürich tätig.
 
-<!-- - Eine Sammlung potenzieller Interviewfragen mit gut durchdachten Antworten (max. 2 Seiten). -->
-<!-- - Eine Zusammenfassung eines Gesprächs mit einer Person, die kürzlich ein Vorstellungsgespräch absolviert hat, inklusive Reflexion über deren Erfahrungen sowie eine eigene Selbstreflexion (1 Seite). -->
+#### 18. März
 
-<!-- *Karriereplan (10%)* (Abgabefrist: 4. Juni) -->
+**Nadja Lusch, Gründerin und Strategic Sparring Partner, Finesse Business** 
 
-<!-- Ein strategischer, individueller Karriereplan (max. 2 Seiten), der Folgendes umfasst: -->
-<!-- - Eine Übersicht über aktuelle Kompetenzen. -->
-<!-- - Eine Strategie für Weiterbildung und Entwicklung, die mindestens fünf karriererelevante Trends identifiziert (z. B. übertragbare Fähigkeiten, Projektmanagement, digitale Kompetenzen), um die Beschäftigungsfähigkeit zu steigern. -->
-<!-- - Eine Liste mit Informationsquellen für Jobmöglichkeiten (z. B. Praktika, Branchenveranstaltungen, Universitätsprogramme, Alumni-Netzwerke). -->
-<!-- - Einen strukturierten Zeitplan für die Stellensuche mit wichtigen Meilensteinen und Fristen. -->
+Nadja Maria Lusch hat Sozial-, Wirtschafts- und Entscheidungspsychologie an der Universität Basel studiert und ist seit mehreren Jahren im Bereich Leadership, Entscheidungspsychologie und Organisationsentwicklung tätig. Dabei hatte sie Positionen als HR BP, Sr. Consultant und HR TA Expert EMEA inne und war tätig in der strategischen Führungskräfteentwicklung sowie im Executive Sparring. Aktuell ist sie als Gründerin und Strategic Sparring Partner freiberuflich mit Finesse Business tätig.
 
-<!-- ### 2. Reflexion zu Expertenvorträgen: Schriftliche Aufgaben (60%) -->
+**Leila Ochsenbein, Psychotherapeutin, unablenkbar – Zentrum für ADHS**
 
-<!-- *Kurzreflexionen (9 Experten, jeweils ca. 7%)* (ca. 1–2 Seiten; Abgabefrist: einer Woche nach der jeweiligen Sitzung) -->
+Leila Ochsenbein hat Psychologie an der Universität Basel studiert. Aktuell ist sie als Psychotherapeutin im unablenkbar – Zentrum für ADHS tätig.
 
-<!-- Nach jeder Gastvorlesung verfassen die Studierenden eine kritische Reflexion, die die wichtigsten Erkenntnisse zusammenfasst und deren Relevanz für den eigenen Karriereweg bewertet. -->
+**Juliane Schaffter, Teamleiterin Schulpsychologie, Erziehungsdepartement des Kantons Basel-Stadt**
 
-<!-- **Inhalt**: 1) Zusammenfassung des Vorgetragenen: Kurze Darstellung der zentralen Inhalte der Gastvorlesung, 2) Erklärung des Berufes und der psychologischen Fähigkeiten: Beschreibung des Berufsbildes der Expertin/des Experten, Welche psychologischen Kompetenzen aus dem Studium bereiten auf diesen Beruf vor?; 3) Kritische Auseinandersetzung: Persönliche Reflexion: Welche Aspekte waren besonders wertvoll? Anwendung der Erkenntnisse auf den eigenen Berufsweg -->
+Juliane Schaffter hat Entwicklungs- und Persönlichkeitspsychologie an der Universität Basel studiert und ist seit 2023 im Bereich Schulpsychologie tätig. Hier arbeitete sie zu Beginn in der Funktion als Schulpsychologin, seit 2025 ist sie zudem als Teamleiterin Schulpsychologie angestellt.
 
-<!-- **Formatierung & Struktur**: Times New Roman 12 pt, Arial 11 pt oder Calibri 11 pt,  -->
-<!-- Zeilenabstand: Doppelt. -->
+#### 15. April
+
+**Basil Blum,  Berufs-, Studien- und Laufbahnberater, Berufs-,Studien- und Laufbahnberatung (BIZ) Basel**
+
+Basil Blum hat Psychologie an der Universität Basel, mit Schwerpunkt Decision Sciences studiert und ist seit 2009 im Bereich Berufs-, Studien und Laufbahnberatung tätig. Dabei hatte er neben der Laufbahnberatung Schwerpunkte und Tätigkeiten in der Migrationsarbeit, der Arbeitsintegration, redaktionelle Arbeiten sowie in der Erwachsenenbildung. Aktuell ist er in Teilzeit als Berater im BIZ und als Redaktor zu Berufsbildungsthemen tätig.
+
+**Mirjam Seckler, UX Research Manager, Google**
+
+Mirjam hat Psychologie an der Universität Basel studiert und ist seit 2014 bei Google im Bereich UX Research tätig. Sie war bei YouTube und Google Maps tätig und nun leitet nun ein Team bei Google Search.
+
+**Can Nakkas, Chef Psychologisch-Pädagogischer Dienst der Armee (PPD A), Schweizer Armee**
+ 
+Can Nakkas hat Psychologie an der Universität Zürich (Lizentiat) und der Universität Basel (PhD) studiert und ist seit 2006 im Bereich der Militärpsychologie tätig. Dabei hatte er Positionen wie wissenschaftlicher Assistent an der Militärakademie/ETHZ, Gastdozent an der ETHZ und Leiter Psychologie PPD A inne. Aktuell ist er als Chef PPD A bei der Schweizer Armee tätig.
+
+#### 6. Mai
+
+**Lara Niklaus, Spezialistin Präventionsmanagement, SWICA**
+
+Lara Niklaus hat ihren Bachelor an der Universität Basel, ihren Masterabschluss an der Universität Zürich und einen CAS im Bereich Change Management an der FHNW absolviert. Sie konnte während dem Studium Erfahrungen in der Kommunikation, im Coaching, in der forensischen Psychiatrie und im HR Bereich sammeln. Nach dem Masterstudium war sie zunächst als Junior HR Business Partnerin tätig, bevor sie für zwei Jahre nach Brüssel ging, um als Global Talent Aquisition Officer zu arbeiten. Seit ihrer Rückkehr nach Basel ist sie als Spezialistin Präventionsmanagement bei SWICA tätig. In dieser Rolle berät sie Unternehmen in den Bereichen Gesundheitsförderung und Prävention, hält Workshops und Referate zu unterschiedlichen Themen in den Bereichen mentale Gesundheit, Kommunikation, Veränderungen sowie Absenz- & Präsenzmanagement.
+
+**Damien Doshi, Doktorand, Universität Zürich**
+
+Damien Doshi hat Psychologie an der Universität Basel studiert und ist seit Juli 2025 als Doktorand im Bereich der Depressionsforschung an der Universität Zürich tätig.
+
+**Benedict Weizenegger, Leitender Psychologe, Kinder- und Jugendpsychiatrie, Psychiatrie Baselland (PBL)**
+
+Benedict Weizenegger hat Psychologie an der Universität Basel studiert und ist seit 2010 im Bereich der Kinder- und Jugendpsychiatrie/-psychologie tätig. Dabei hatte er Positionen wie «PG-Psychologe» und Psychologe. Aktuell ist er als Leitender Psychologe und Leiter der Kinder- und Jugendforensik bei der Kinder- und Jugendpsychiatrie der Psychiatrie Baselland (PBL) tätig.
 
 
 
-<!-- Jede Aufgabe wird nach dem BESTANDEN/NICHT BESTANDEN-Prinzip bewertet. Ein BESTANDEN erfordert eine hohe inhaltliche Qualität. Die Endnote basiert auf dem Anteil der erfolgreich abgeschlossenen Aufgaben. -->
+# Kursbewertung
 
-<!-- Alle Aufgaben (mit Ausnahme des Karriereplans) müssen innerhalb einer Woche nach der jeweiligen Sitzung über ADAM eingereicht werden. -->
+Die Kursbewertung besteht aus zwei Teilen: **Karriereportfolio** und **Reflexionen zu Expertenvorträgen**. Das Karriereportfolio umfasst vier praxisorientierte Aufgaben.  
+Die Reflexionen umfassen vier schriftliche Reflexionen.
+
+Alle Einreichungen werden mit **BESTANDEN / NICHT BESTANDEN** bewertet und fliessen in die Endnote ein (siehe unten). 
+
+Alle schriftlichen Abgaben: Times New Roman, 12 pt, doppelter Zeilenabstand.
+
+### 1. Karriereportfolio 
+Vier separat einzureichende Aufgaben. Das Karriereportfolio besteht aus mehreren praxisorientierten Aufgaben zur Entwicklung karriererelevanter Kompetenzen. Alle Bestandteile werden individuell erstellt und separat eingereicht.
+
+#### 1.1 Curriculum Vitae 
+
+Ein gut strukturiertes, professionelles und auf die Kursrichtlinien abgestimmtes Curriculum Vitae.
+
+Anforderungen (siehe Präsentation aus Session 3):
+
+- Klarer, übersichtlicher Aufbau
+
+- Relevante Ausbildung, Erfahrungen und Kompetenzen
+
+- Anpassung an gängige professionelle Standards  
+
+
+#### 1.2 Motivationsschreiben 
+
+Ein überzeugendes und individuell angepasstes Bewerbungsschreiben für eine konkrete Stelle oder ein Praktikum (siehe Präsentation aus Session 5).
+
+Anforderungen:
+
+- Klare Motivation und expliziter Bezug zur ausgeschriebenen Position
+
+- Logischer Aufbau und überzeugende Argumentation
+
+- Bezug zu eigenen Kompetenzen und Erfahrungen in Relation zur Stellenausschreibung
+
+- Beilage der vollständigen Stellenausschreibung im selben Dokument (PDF)
+
+#### 1.3 Vorbereitung auf das Vorstellungsgespräch
+
+Diese Aufgabe besteht aus zwei Teilen (siehe Präsentation aus Session 7):
+
+- Eine Sammlung potenzieller Interviewfragen mit gut durchdachten, strukturierten Antworten (max. 2 Seiten)
+
+- Eine Zusammenfassung eines Gesprächs mit einer Person, die kürzlich ein Vorstellungsgespräch absolviert hat (insgesamt 1 Seite), inklusive: Reflexion über deren Erfahrungen und Selbstreflexion im Hinblick auf das eigene Bewerbungsverhalten  
+
+#### 1.4 Karriereplan 
+
+Ein strategischer und individueller Karriereplan, der folgende Elemente umfasst (siehe Präsentation aus Session 1):
+
+- Übersicht über aktuelle fachliche und überfachliche Kompetenzen
+
+- Strategie zur Weiterentwicklung und Qualifizierung, unter Einbezug von karriererelevanten Kompetenzen (z. B. übertragbare Fähigkeiten, Projektmanagement, digitale Kompetenzen)
+
+- Übersicht relevanter Informations- und Suchquellen für Jobmöglichkeiten  (z. B. Praktika, Branchenveranstaltungen, Universitätsprogramme, Alumni-Netzwerke)
+
+- Strukturierter Zeitplan für die Stellensuche mit zentralen Meilensteinen und Fristen
+
+
+### 2. Reflexionen zu Expertenvorträgen
+
+Insgesamt **4 Reflexionen** (je 2 Seiten). Jede Reflexion sollte folgende Elemente enthalten:
+
+- Zusammenfassung der Vorträge: Kurze Darstellung der zentralen Inhalte und Berufsfelder der Expertinnen- und Expertenbeiträge.
+
+- Kompetenzen: Beschreibung der Kompetenzen, die durch das Studium auf diese Berufsfelder vorbereiten.
+
+- Kritische und persönliche Reflexion: Reflexion darüber, welche Aspekte besonders relevant oder aufschlussreich waren und wie sich die gewonnenen Erkenntnisse auf den eigenen Karriereweg übertragen lassen.
+
+### 3. Abgabefristen und Endnoteberechnung
+
+| Aufgabe | Umfang | Abgabefrist |
+|---|---|---|
+| Reflexion 1 (Expertenvorträge, Session 2) | 2 Seiten | 11.03.2026 |
+| Curriculum Vitae | 2 Seiten | 18.03.2026 |
+| Reflexion 2 (Expertenvorträge, Sitzung 4) | 2 Seiten | 25.03.2026 |
+| Motivationsschreiben | 1 Seite | 15.04.2026 |
+| Reflexion 3 (Expertenvorträge, Sitzung 6) | 2 Seiten | 22.04.2026 |
+| Interviewvorbereitung | 3 Seiten | 06.05.2026 |
+| Reflexion 4 (Expertenvorträge, Sitzung 8) | 2 Seiten | 13.05.2026 |
+| Karriereplan | 2 Seiten | 29.05.2026 |
+
+
+Die Endnote setzt sich aus zwei unterschiedlich gewichteten Bestandteilen zusammen:
+
+- Karriereportfolio (60 %)  
+  Das Karriereportfolio besteht aus vier Aufgaben (CV, Motivationsschreiben, Interviewvorbereitung, Karriereplan).  
+  Alle Portfolioaufgaben sind innerhalb dieses Bestandteils gleich gewichtet.  
+  Die Karriereportfolionote wird auf der Skala 1–6 berechnet.
+
+- Reflexionen zu Expertenvorträgen (40 %)  
+  Es können bis zu vier schriftliche Reflexionen eingereicht werden.  
+  Alle Reflexionen sind innerhalb dieses Bestandteils gleich gewichtet.  
+  Die Reflexionsnote wird auf der Skala 1–6 berechnet.
+
+Nicht eingereichte oder nicht bestandene Leistungen werden mit der Note 1 bewertet.  
+Die Endnote wird auf 0.5 Schritte gerundet. 
+
+Die Endnote ergibt sich aus folgendem gewichteten Mittelwert:
+
+\[
+\text{Endnote} = 0.6 \times \text{Karriereportfolionote} + 0.4 \times \text{Reflexionsnote}
+\]
+
+### Endnote nach Anzahl eingereichter Leistungen
+
+| Portfolio-Aufgaben ↓ / Reflexionen → | 0 | 1 | 2 | 3 | 4 |
+|-------------------------------------|----|----|----|----|----|
+| 0 | 1.0 | 1.5 | 2.0 | 2.5 | 3.0 |
+| 1 | 2.0 | 2.5 | 3.0 | 3.5 | 4.0 |
+| 2 | 2.5 | 3.0 | 3.5 | 4.0 | 4.5 |
+| 3 | 3.5 | 4.0 | 4.5 | 5.0 | 5.5 |
+| 4 | 4.0 | 4.5 | 5.0 | 5.5 | 6.0 |
+
+
